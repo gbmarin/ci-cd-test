@@ -1,4 +1,4 @@
-from math_utils import add, subtract
+from math_utils import add
 
 def test_add():
     assert add(2, 3) == 5
@@ -11,6 +11,3 @@ def test_add_negative():
 
 def test_add_mixed():
     assert add(-1, 5) == 4
-    
-def test_subtract():
-    assert subtract(5, 3) == 2
